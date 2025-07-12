@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import TeamDisplay from './components/TeamDisplay.vue';
 </script>
 
 <template>
   <div>
     <h1>Battleship</h1>
-    <team-display></team-display>
+    <TeamDisplay/>
   </div>
 </template>
 
